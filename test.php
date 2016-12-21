@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 class ProgressionTester
 {
@@ -16,7 +16,6 @@ class ProgressionTester
   static function testArithmetic($testString)
   {
     $seqElements = explode(',', $testString);
-    $lastElement = NULL;
 
     // Элементов должно быть более 2
     if (count($seqElements) < 3) {
