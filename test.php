@@ -22,7 +22,7 @@ class ProgressionTester
       return self::PROGRESSION_ERROR;
     }
 
-    // Искомая разность прогрессии между первым и вторым элементом 
+    // ?скомая разность прогрессии между первым и вторым элементом 
     // должна сохранять во всей прогрессии
     $commonDifference = $seqElements[1] - $seqElements[0];
 
@@ -56,7 +56,7 @@ class ProgressionTester
       return self::PROGRESSION_ERROR;
     }
 
-    // Искомая разность прогрессии между первым и вторым элементом 
+    // ?скомая разность прогрессии между первым и вторым элементом 
     // должна сохранять во всей прогрессии
     $commonDifference = $seqElements[1] / $seqElements[0];
 
